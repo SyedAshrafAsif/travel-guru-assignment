@@ -13,13 +13,36 @@
 .description{
     width: 35%;
     height: auto;
-    margin-left: 25px;     
+    margin-left: 25px;
+    display: none;     
 }
 
 .card-area{
     display: flex;
     width: 60%;
-    height: auto;
+    margin-bottom: 100px;
+}
+
+.card-display{
+    border: hidden;
+    width: 12rem;
+    margin: 5px;
+}
+
+.card-display:hover{
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+}
+
+.btn-adjust{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    top: 250px;
+    left: 45px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
 }
 
 
