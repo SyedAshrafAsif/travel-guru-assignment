@@ -5,7 +5,6 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Booking from './components/Booking/Booking';
 import CreateAccount from './components/CreateAccount/CreateAccount';
@@ -15,32 +14,34 @@ import Search from './components/Search/Search';
 
 function App() {
   return (
-    <Router>
-      <Header></Header>
-      <Switch>
-        <Route path="/home">
-          <Home/>
-        </Route>
-        <Route path="/booking">
-          <Booking/>
-        </Route>
-        <Route path="/createAccount">
-          <CreateAccount/>
-        </Route>
-        <Route path="/login">
-          <Login/>
-        </Route>
-        <Route path="search">
-          <Search/>
-        </Route>
-        <Route exact path="/">
-          <Home/>
-        </Route>
-        <Route path="*">
-          <NoMatch/>
-        </Route>
-      </Switch>
-    </Router>
+    <div>
+      <Router>
+        <Switch>
+          <Route path="/home">
+            <Home/>
+          </Route>
+          <Route path="/booking">
+            <Booking/>
+          </Route>
+          <Route path="/createAccount">
+            <CreateAccount/>
+          </Route>
+          <Route path="/login">
+            <Login/>
+          </Route>
+          <Route path="search">
+            <Search/>
+          </Route>
+          <Route exact path="/">
+            <Home/>
+          </Route>
+          <Route path="*">
+            <NoMatch/>
+          </Route>
+        </Switch>
+      </Router>
+    </div>
+    
   );
 }
 

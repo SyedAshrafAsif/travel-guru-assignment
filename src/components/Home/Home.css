@@ -1,0 +1,26 @@
+.background {
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("../../image/Rectangle\ 1.png"); 
+    background-size: cover;
+    width: auto;
+    height: auto;
+  }
+  
+.adjust{
+    display: flex;
+    margin-top: 100px;
+}
+
+.description{
+    width: 35%;
+    height: auto;
+    margin-left: 25px;     
+}
+
+.card-area{
+    display: flex;
+    width: 60%;
+    height: auto;
+}
+
+
+  
