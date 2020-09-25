@@ -6,6 +6,7 @@ header {
     width: 40%;
 }
 .logo {
+    width: 100%;
     margin-left: 10%;
 }
 .search_box {
@@ -26,7 +27,6 @@ header {
     color: #f2f2f2;
 }
 .menu ul li a {
-    color: #ffffff !important;
     padding: 10px 20px !important;
     transition: 0.4s;
 }

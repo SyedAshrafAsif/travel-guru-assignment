@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from '../../image/whiteLogo.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import tgLogo from '../../image/whiteLogo.png';
 import './Header.css';
 const Header = () => {
     return (
@@ -11,10 +9,9 @@ const Header = () => {
                     <nav class="navbar navbar-expand-lg navbar-light">
 
                         <a class="navbar-brand nav_logo" href="index.html">
-                        <img src={logo} class="img-fluid logo" alt="travel-guru-logo"></img>
+                        <img src={tgLogo} class="img-fluid logo" alt="travel-guru-logo" style={{width: '150px', height: '35px', marginLeft: '10%'}}></img>
                         </a>
                         
-                        <FontAwesomeIcon icon={faSearch} class="search_icon"/>
                         <input class="form-control bg-transparent mr-sm-2 search_box" type="search"
                         placeholder=" &nbsp; &emsp; Search your Destination..." aria-label="Search"></input>
                         
@@ -27,19 +24,19 @@ const Header = () => {
                         <div class="collapse navbar-collapse menu" id="custom_nav">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                <a class="nav-link" href="#">News</a>
+                                <a class="nav-link" href="/home">News</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="#">Destination</a>
+                                <a class="nav-link" href="/home">Destination</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
+                                <a class="nav-link" href="/home">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="/home">Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="#">Login</a>
+                                <a class="nav-link" href="/login">Login</a>
                                 </li>
                             </ul>
                         </div>

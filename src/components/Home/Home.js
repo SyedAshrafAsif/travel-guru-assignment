@@ -33,6 +33,7 @@ const Home = () => {
                     <Button className="btn-adjust btn-warning" onClick={handleBookingPage}>Booking
                     <FontAwesomeIcon icon={faArrowRight} style={{marginLeft: '5px'}}/></Button>                                                            
                 </div>
+
                 <div className="card-area">
                     {
                         destination.map((cardInfo) =>                                           

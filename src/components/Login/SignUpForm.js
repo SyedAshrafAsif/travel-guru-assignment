@@ -36,7 +36,7 @@ const SignUpForm = (props) => {
 
 			<div className="register-login">
 				Already have an account?{" "}
-				<button className="btn btn-logintoggle" onClick={toggleUser}>
+				<button style={{color: 'steelBlue', border: 'none', textDecoration: 'underline'}} className="bg-transparent" onClick={toggleUser}>
 					Login
 				</button>
 			</div>

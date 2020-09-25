@@ -8,6 +8,7 @@
 .adjust{
     display: flex;
     margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 .description{
@@ -20,9 +21,9 @@
 .card-area{
     display: flex;
     width: 60%;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     height: 304px;
-}
+}   
 
 .card-display{
     border: hidden;

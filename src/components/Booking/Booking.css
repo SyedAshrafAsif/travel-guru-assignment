@@ -18,6 +18,11 @@
     
 }
 
+.my-form {
+    padding-bottom: 60px;
+    margin-bottom: 200px;
+  }
+
 .form_area {
     margin: 0 auto;
     border: 1px solid #c5c5c5;

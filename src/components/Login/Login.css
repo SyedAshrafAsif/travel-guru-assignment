@@ -1,8 +1,8 @@
-.loginSection {
+.loginPart {
 	padding: 100px 0;
 }
 
-.loginSection .formHandling {
+.loginPart .formHandling {
 	max-width: 500px;
 	margin: 0 auto;
 	background: #3a353533;
@@ -11,10 +11,10 @@
 	padding: 40px 50px;
 }
 
-.facebookLogin {
+.otherMediaLogin {
 	text-align: center;
 }
-.facebookLogin .btn {
+.otherMediaLogin .btn {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 20px;
@@ -25,7 +25,7 @@
 	border-radius: 57px;
 }
 
-.facebookLogin .btn {
+.otherMediaLogin .btn {
 	width: 461px;
 	margin: 0 auto;
 	height: 51px;
@@ -93,18 +93,6 @@
 
 .formHandling .form-group a,
 .formHandling a {
-	color: var(--primary);
-	text-decoration: underline;
-}
-
-.formHandling .btn-logintoggle {
-	font-weight: normal;
-	color: var(--primary);
-	text-decoration: underline;
-	padding: 0;
-}
-
-.formHandling .btn-logintoggle:hover {
 	color: var(--primary);
 	text-decoration: underline;
 }

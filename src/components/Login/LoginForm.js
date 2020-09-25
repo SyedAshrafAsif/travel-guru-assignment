@@ -35,10 +35,10 @@ const LoginForm = (props) => {
 					Login
 				</button>
 			</form>
-
+			<br/>
 			<div className="register-login">
 				Don’t have an account?{" "}
-				<button className="btn btn-logintoggle" onClick={toggleUser}>
+				<button style={{color: 'green', border: 'none', textDecoration: 'underline'}} className="bg-transparent" onClick={toggleUser}>
 					Create an account
 				</button>
 			</div>
