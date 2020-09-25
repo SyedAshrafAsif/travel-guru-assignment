@@ -1,0 +1,79 @@
+header {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.nav_logo {
+    width: 40%;
+}
+.logo {
+    margin-left: 10%;
+}
+.search_box {
+    width: 30%;
+    margin-left: 68px;
+    position: relative;
+    font-weight: 500;
+    
+}
+.search_icon {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 23%;
+    top: 39%;
+    z-index: 1; 
+    font-size: 20px;
+    color: #f2f2f2;
+}
+.menu ul li a {
+    color: #ffffff !important;
+    padding: 10px 20px !important;
+    transition: 0.4s;
+}
+.menu ul li a:hover {
+    background-color: #f9a51a !important;
+    color: black !important;
+    border-radius: 5px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+/* Header Starts */
+.menu ul li a {
+    text-align: right;
+}
+.nav_logo {
+    margin-right: 0px;
+    width: 35%;
+}
+.nav_tgl {
+    margin-top: 10px;
+    font-size: 22px;
+    border: none; 
+}
+.nav_tgl:focus {
+    outline: 0;
+    border: none;
+}
+/* Header Ends */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+  

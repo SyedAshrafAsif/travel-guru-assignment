@@ -11,9 +11,9 @@
 }
 
 .description{
-    width: 35%;
+    width: 30%;
     height: auto;
-    margin-left: 25px;
+    margin: 20px;
     display: none;     
 }
 
@@ -21,6 +21,7 @@
     display: flex;
     width: 60%;
     margin-bottom: 100px;
+    height: 304px;
 }
 
 .card-display{
@@ -35,14 +36,14 @@
 }
 
 .btn-adjust{
-    position: absolute;
-    width: 100px;
+    width: 130px;
     height: 35px;
     top: 250px;
     left: 45px;
     border: none;
     border-radius: 10px;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+    
+
 }
 
 
