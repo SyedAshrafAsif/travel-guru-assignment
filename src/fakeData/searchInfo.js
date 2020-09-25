@@ -1,3 +1,7 @@
+import img1 from '../image/Rectangle 26.png';
+import img2 from '../image/Rectangle 27.png';
+import img3 from '../image/Rectangle 28.png';
+
 const searchInfo = [
 	{
 		title: "Light bright airy stylish apt & safe peaceful stay",
@@ -12,7 +16,7 @@ const searchInfo = [
 		totalRating: 20,
 		price: 34,
 		coordinates: { lat: 21.4171963, long: 91.977232 },
-		imgUrl: "https://i.ibb.co/KXX7Wmn/travel-img-1.png",
+		imgUrl: `${img1}`,
 	},
 	{
 		title: "Apartment in Lost Panorama",
@@ -27,7 +31,7 @@ const searchInfo = [
 		totalRating: 15,
 		price: 52,
 		coordinates: { lat: 21.4172171, long: 91.9772095 },
-		imgUrl: "https://i.ibb.co/w7NjLP1/travel-img-2.png",
+		imgUrl: `${img2}`,
 	},
 	{
 		title: "AR Lounge & Pool (r&r + b&b)",
@@ -42,7 +46,7 @@ const searchInfo = [
 		totalRating: 25,
 		price: 44,
 		coordinates: { lat: 21.4172171, long: 91.9772095 },
-		imgUrl: "https://i.ibb.co/wYMBf0w/travel-img-3.png",
+		imgUrl: `${img3}`,
 	},
 ];
 
